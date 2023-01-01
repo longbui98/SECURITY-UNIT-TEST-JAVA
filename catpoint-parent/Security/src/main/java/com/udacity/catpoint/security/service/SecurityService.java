@@ -1,6 +1,5 @@
 package com.udacity.catpoint.security.service;
 
-import com.udacity.catpoint.image.service.FakeImageService;
 import com.udacity.catpoint.image.service.ImageService;
 import com.udacity.catpoint.security.application.StatusListener;
 import com.udacity.catpoint.security.data.AlarmStatus;
@@ -12,7 +11,6 @@ import java.awt.image.BufferedImage;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.ConcurrentSkipListSet;
-import java.util.stream.Collectors;
 
 /**
  * Service that receives information about changes to the security system. Responsible for
