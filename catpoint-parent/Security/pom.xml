@@ -14,8 +14,8 @@
     <name>Security</name>
 
     <properties>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <!-- plugins -->
         <maven.assembly.plugin.version>3.3.0</maven.assembly.plugin.version>
         <!-- dependencies -->
