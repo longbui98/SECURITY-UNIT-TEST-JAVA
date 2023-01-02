@@ -23,18 +23,6 @@
     </properties>
 
     <dependencies>
-    	<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/auth -->
-		<dependency>
-			<groupId>software.amazon.awssdk</groupId>
-			<artifactId>auth</artifactId>
-			<version>2.18.28</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/rekognition -->
-		<dependency>
-			<groupId>software.amazon.awssdk</groupId>
-			<artifactId>rekognition</artifactId>
-			<version>2.18.28</version>
-		</dependency>
         <!-- https://mvnrepository.com/artifact/com.miglayout/miglayout -->
         <dependency>
             <groupId>com.miglayout</groupId>

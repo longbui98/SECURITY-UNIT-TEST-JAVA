@@ -16,6 +16,12 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <software.amazon.awssdk.region.version>2.19.8</software.amazon.awssdk.region.version>
+		<software.amazon.awssdk.core.version>2.19.8</software.amazon.awssdk.core.version>
+		<software.amazon.awssdk.auth.version>2.19.8</software.amazon.awssdk.auth.version>
+		<software.amazon.awssdk.rekognition.version>2.19.8</software.amazon.awssdk.rekognition.version>
+		<software.amazon.awssdk.aws.core.version>2.19.8</software.amazon.awssdk.aws.core.version>
+		<software.amazon.awssdk.utils.version>2.19.8</software.amazon.awssdk.utils.version>
     </properties>
 
     <dependencies>
@@ -24,6 +30,44 @@
     		<groupId>org.slf4j</groupId>
     		<artifactId>slf4j-api</artifactId>
     		<version>2.0.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/regions -->
+		<dependency>
+    		<groupId>software.amazon.awssdk</groupId>
+    		<artifactId>regions</artifactId>
+    		<version>${software.amazon.awssdk.region.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/core -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>core</artifactId>
+			<version>${software.amazon.awssdk.core.version}</version>
+			<type>pom</type>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/auth -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>auth</artifactId>
+			<version>${software.amazon.awssdk.auth.version}</version>
+			<type>pom</type>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/rekognition -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>rekognition</artifactId>
+			<version>${software.amazon.awssdk.rekognition.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/aws-core -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>aws-core</artifactId>
+			<version>${software.amazon.awssdk.aws.core.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/utils -->
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>utils</artifactId>
+			<version>${software.amazon.awssdk.utils.version}</version>
 		</dependency>
     </dependencies>
 </project>
