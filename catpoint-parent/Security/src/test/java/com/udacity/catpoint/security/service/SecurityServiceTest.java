@@ -8,7 +8,6 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import java.awt.Font;
 import java.awt.image.BufferedImage;
 import java.util.HashSet;
 import java.util.Set;
